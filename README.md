@@ -4,7 +4,7 @@
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-ruby-practice/blob/main/LICENSE)
 [![Ruby Badge](https://img.shields.io/badge/Ruby%20is-Cool-1f425f.svg)](https://www.ruby-lang.org)
 
-![Ruby Wallpaper](./assets/media/docs/wall.png)
+![Ruby Wallpaper](./assets/media/docs/wall.jpg)
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-go-practice/graphs/code-frequency).
 
