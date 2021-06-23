@@ -6,7 +6,7 @@
 
 ![Ruby Wallpaper](./assets/media/docs/wall.jpg)
 
-You can check the Code frequency [here](https://github.com/UltiRequiem/daily-go-practice/graphs/code-frequency).
+You can check the Code frequency [here](https://github.com/UltiRequiem/daily-ruby-practice/graphs/code-frequency).
 
 ## Similar to:
 
