@@ -4,4 +4,4 @@
 
 NUMBERS = [2, 4, 6, 8, 10, -2].freeze
 
-print(NUMBERS.max)
+puts NUMBERS.max
