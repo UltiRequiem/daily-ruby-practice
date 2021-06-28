@@ -4,4 +4,4 @@
 
 MY_LIST = [6, 0, 4, 1].clear
 
-print("My List contain #{MY_LIST}.")
+puts "My List contain #{MY_LIST}."

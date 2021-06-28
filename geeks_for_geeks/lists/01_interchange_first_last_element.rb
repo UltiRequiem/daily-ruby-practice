@@ -8,4 +8,4 @@ end
 
 swap_list(my_list)
 
-puts my_list
+print my_list

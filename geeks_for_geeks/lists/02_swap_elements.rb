@@ -11,4 +11,4 @@ MY_LIST = [23, 65, 19, 90].freeze
 POS_ONE = 2
 POS_TWO = 3
 
-puts swap_positions(MY_LIST, POS_ONE - 1, POS_TWO - 1)
+print swap_positions(MY_LIST, POS_ONE - 1, POS_TWO - 1)
