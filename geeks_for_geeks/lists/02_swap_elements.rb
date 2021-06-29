@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-def swap_positions(list, position_one, position_two)
-  list[position_two], list[position_one] = list[position_one], list[position_two]
+def swap_positions(lst, pos_one, pos_two)
+  lst[pos_two], lst[pos_one] = lst[pos_one], lst[pos_two]
 
-  list
+  lst
 end
 
 MY_LIST = [23, 65, 19, 90].freeze

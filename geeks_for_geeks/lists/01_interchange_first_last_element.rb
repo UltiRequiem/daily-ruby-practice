@@ -2,8 +2,8 @@
 
 my_list = [20, 50, 60, 30]
 
-def swap_list(list_to_swap)
-  list_to_swap[0], list_to_swap[-1] = list_to_swap[-1], list_to_swap[0]
+def swap_list(lst)
+  lst[0], lst[-1] = lst[-1], lst[0]
 end
 
 swap_list(my_list)

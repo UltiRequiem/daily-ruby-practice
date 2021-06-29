@@ -4,8 +4,8 @@
 
 NUMBERS = [4, 8, 2, 10, 15, 18].freeze
 
-def clone_list(a_list)
-  a_list.clone
+def clone_list(lst)
+  lst.clone
 end
 
 NUMBERS_TWO = clone_list(NUMBERS)
