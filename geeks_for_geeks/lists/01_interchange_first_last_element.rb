@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-my_list = [20, 50, 60, 30]
+NUMBERS = [20, 50, 60, 30].freeze
 
 def swap_list(lst)
-  lst[0], lst[-1] = lst[-1], lst[0]
+  new_list = lst.map(&:clone)
+  new_list[0], new_list[-1] = new_list[-1], new_list[0]
+  new_list
 end
 
-swap_list(my_list)
-
-print my_list
+puts "The Swaped list is #{swap_list(NUMBERS)}"

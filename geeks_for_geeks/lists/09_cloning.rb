@@ -5,7 +5,7 @@
 NUMBERS = [4, 8, 2, 10, 15, 18].freeze
 
 def clone_list(lst)
-  lst.clone
+  lst.map(&:clone)
 end
 
 NUMBERS_TWO = clone_list(NUMBERS)

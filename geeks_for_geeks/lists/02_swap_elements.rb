@@ -1,14 +1,11 @@
 # frozen_string_literal: true
 
 def swap_positions(lst, pos_one, pos_two)
-  lst[pos_two], lst[pos_one] = lst[pos_one], lst[pos_two]
-
-  lst
+  new_list = lst.map(&:clone)
+  new_list[pos_two], new_list[pos_one] = new_list[pos_one], new_list[pos_two]
+  new_list
 end
 
 MY_LIST = [23, 65, 19, 90].freeze
 
-POS_ONE = 2
-POS_TWO = 3
-
-print swap_positions(MY_LIST, POS_ONE - 1, POS_TWO - 1)
+puts swap_positions(MY_LIST, 2, 3)

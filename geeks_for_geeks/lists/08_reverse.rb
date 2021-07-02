@@ -3,7 +3,8 @@
 MY_LIST = [10, 11, 12, 13, 14, 15].freeze
 
 def reverse_list(lst)
-  lst.reverse
+  new_list = lst.map(&:clone)
+  new_list.reverse
 end
 
-print reverse_list(MY_LIST)
+puts reverse_list(MY_LIST)
