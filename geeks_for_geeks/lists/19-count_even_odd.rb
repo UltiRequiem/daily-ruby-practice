@@ -3,7 +3,8 @@
 NUMBERS = [10, 21, 4, 45, 66, 93, 11].freeze
 
 def count_odd(lst)
-  lst.filter(&:even?).length
+  lst.filter(&:odd?).length
+  # lst.find_all(&:odd?).length
 end
 
 ONLY_ODD = count_odd(NUMBERS)
