@@ -12,4 +12,4 @@ def remove_empty_lists(tuples)
   tuples.reject(&:empty?)
 end
 
-print(remove_empty_lists(EXAMPLE))
+print remove_empty_lists(EXAMPLE)
