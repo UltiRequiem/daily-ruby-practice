@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-def is_small?(a, b, c)
-  ((a >= 1 && a <= 10) || (b >= 1 && b <= 10) || (c >= 1 && c <= 10))
+def small?(first, second, third)
+  ((first >= 1 && first <= 10) || (second >= 1 && second <= 10) || (third >= 1 && third <= 10))
 end
 
-puts is_small?(1, 12, 25) 
-puts is_small?(10, 15, 33)
-puts is_small?(11, 25, 43)
+puts small?(1, 12, 25)
+puts small?(10, 15, 33)
+puts small?(11, 25, 43)

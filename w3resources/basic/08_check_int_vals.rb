@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-def in2030(a, b)
-  ((a >= 20 && a <= 30) || (b >= 20 && b <= 30))
+def in2030(num_one, num_two)
+  ((num_one >= 20 && num_one <= 30) || (num_two >= 20 && num_two <= 30))
 end
 
 print in2030(15, 99), "\n"
