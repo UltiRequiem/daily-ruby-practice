@@ -3,6 +3,8 @@
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/daily-ruby-practice?color=blue&label=Total%20Lines)
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/UltiRequiem/daily-ruby-practice/blob/main/LICENSE)
 [![Ruby Badge](https://img.shields.io/badge/Ruby%20is-Cool-1f425f.svg)](https://www.ruby-lang.org)
+![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-green.svg)
+
 
 ![Ruby Wallpaper](./assets/media/docs/wall.jpg)
 
