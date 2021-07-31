@@ -1,6 +1,8 @@
-def if_string(str)
-  tr[0, 3] == 'if ' ? str : 'if ' << str
+# frozen_string_literal: true
+
+def string?(str)
+  str[0, 3] == 'if ' ? str : 'if ' << str
 end
 
-puts if_string('if else')
-puts if_string('else')
+puts string?('if else')
+puts string?('else')
