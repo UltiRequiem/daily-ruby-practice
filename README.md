@@ -5,12 +5,11 @@
 [![Ruby Badge](https://img.shields.io/badge/Ruby%20is-Cool-1f425f.svg)](https://www.ruby-lang.org)
 ![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-green.svg)
 
-
 ![Ruby Wallpaper](./assets/media/docs/wall.jpg)
 
 You can check the Code frequency [here](https://github.com/UltiRequiem/daily-ruby-practice/graphs/code-frequency).
 
-## Similar to:
+## Similar to
 
 - [UltiRequiem/daily-js-practice](https://github.com/UltiRequiem/daily-js-practice)
 - [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
